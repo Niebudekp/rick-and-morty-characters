@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .character-details {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    transition: all 0.3s ease;
+  }
+  
+  .character-details:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .character-details-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .character-details-header h1 {
+    margin: 0;
+    font-size: 26px;
+  }
+  
+  .character-details-header button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .character-details-header button:hover {
+    background-color: #4caf4f7e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .character-details-image {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .character-details-info {
+    margin-top: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+  }
+  
+  .character-details-info p {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .character-details-info h3 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #444;
+  }
+  
+  .scrollable-table-container {
+    overflow-x: auto;
+  }
+  
+  .episode-table {
+    min-width: 600px;
+  }
+  
+  .episode-table th, .episode-table td {
+    white-space: nowrap;
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .episode-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .episode-table tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .episode-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .episode-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
